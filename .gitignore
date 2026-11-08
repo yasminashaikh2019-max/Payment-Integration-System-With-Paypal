@@ -1,0 +1,32 @@
+# Java and Maven build output
+**/target/
+**/build/
+*.class
+
+# Eclipse
+**/.metadata/
+**/.settings/
+**/.sonarlint/
+**/.classpath
+**/.project
+**/.factorypath
+
+# IntelliJ
+**/.idea/
+**/*.iml
+
+# Logs
+*.log
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
